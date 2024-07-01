@@ -13,10 +13,10 @@ type Props = {
 const HomeScreen = ({ navigation }: Props) => (
   <Background>
     <Logo />
-    <Header>Login Template</Header>
+    <Header>LearnerPro. Solutions</Header>
 
     <Paragraph>
-      The easiest way to start with your amazing application.
+      The go to for all learning solutions.
     </Paragraph>
     <Button mode="contained" onPress={() => navigation.navigate('LoginScreen')}>
       Login

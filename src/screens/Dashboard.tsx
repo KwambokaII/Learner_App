@@ -12,11 +12,10 @@ type Props = {
 
 const Dashboard = ({ navigation }: Props) => (
   <Background>
-    <Logo />
-    <Header>Let’s start</Header>
+
+    <Header>LearnerPro. Solutions</Header>
     <Paragraph>
-      Your amazing app starts here. Open you favourite code editor and start
-      editing this project.
+      Welcome to LearnerPro Solutions. Your go to for great study material and lessons by amazing tutors.
     </Paragraph>
     <Button mode="outlined" onPress={() => navigation.navigate('HomeScreen')}>
       Logout
